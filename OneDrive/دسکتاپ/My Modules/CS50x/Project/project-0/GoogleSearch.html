@@ -11,45 +11,37 @@
   <body>
 
     <!--Links-->
-      <nav>
-        <ul id="nav_bar">
-          <li class="nav-links"><a href="./GoogleAdvancedSearch.html">Advanced Search</a></li>
-          <li class="nav-links"><a href="./GoogleImageSearch.html">Images</a></li>
-        </ul>
-      </nav>
+    <nav>
+      <ul id="nav_bar">
+        <li class="nav-links"><a href="./GoogleAdvancedSearch.html" style="margin-right: 0px;">Advanced Search</a></li>
+        <li class="nav-links"><a href="./GoogleImageSearch.html" style="margin-right: 30px;">Images</a></li>
+      </ul>
+    </nav>
 
     <!-- GOOGLE IMG -->
     <div class="google">
-        <a href="./googlelogo.png" id="google_logo">
-
-        <img
-        src="./googlelogo.png"
-        width="270px" alt="google logo">
-        </a>
+      <img
+        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        alt="google logo">
+      </a>
     </div>
 
     <!-- FORM SEARCH -->
     <div class="form">
         <form action="https://google.com/search">
-
             <input
             type="text"
             name="q"
             id="form-search"
             placeholder="Search Google or type URL">
 
-            <br/>
-
-            <input type="submit"
-            value="Google Search"
-            style="padding: 8px; margin-right: 3px; margin-top: 28px;">
-
-            <input type="submit"
-            value="I'm Feeling Lucky"
-            style="padding: 8px; margin-left: 3px; margin-top: 28px;">
-
+            <div class="search-buttons">
+              <button class="a" type="submit" name="btnK">Google Search</button>
+              <button class="a" type="submit" name="btnI">I'm Feeling Lucky</button>
+            </div>
         <form/>
     </div>
 
   </body>
+  
 </html>
